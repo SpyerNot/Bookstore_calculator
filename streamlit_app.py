@@ -9,11 +9,11 @@ s4na = 115.5
 s4nt = 118.7
 if option == "S1" or option == "S3":
   st.write("The total cost of the stationaries is $138")
-  remove = st.number_input("Enter the cost that you want to deduct off $138: ")
+  remove = st.number_input("Enter the cost that you want to deduct off $138: ", value=None)
   while True:
     if remove == 0:
       break
       st.write(s1)
     else:
       s1 -= remove
-      remove = st.number_input("Enter the cost that you want to deduct off: ")
+      remove = st.number_input("Enter the cost that you want to deduct off: ",value=None)
