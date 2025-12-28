@@ -7,11 +7,7 @@ s2 = 134.6
 s4e = 119.3
 s4na = 115.5
 s4nt = 118.7
-while True:
-  if option == "S1" or option == "S3":
-    st.write("The total cost of the stationaries is $138")
-    remove_cost = st.number_input("Enter the cost you want to remove: ")
-    if remove_cost == 0:
-      break
-    else:
-      s1 = s1 - remove_cost 
+if option == "S1" or option == "S3":
+  st.write("The total cost of the stationaries is $138")
+  remove_cost = st.number_input("Enter the cost you want to remove: ")
+  s1 = s1 - remove_cost 
