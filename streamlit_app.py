@@ -11,7 +11,7 @@ if option == "S1" or option == "S3":
   st.write("The total cost of the stationaries is $138")
   remove = st.number_input("Enter the cost that you want to deduct off $138: ", min_value = -1)
   while True:
-    if remove == -1:
+    if remove == 0:
       break
       st.write(s1)
     else:
