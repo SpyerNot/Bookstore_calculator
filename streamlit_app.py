@@ -16,3 +16,4 @@ while True:
       st.write(s1)
     else:
       s1 -= remove
+      remove = st.number_input("Enter the cost that you want to deduct off: ")
